@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pizza Cheese</title>
+<link rel="stylesheet" href="pizza.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">Pizza Cheese 🍕</div>
+
+  <div class="links">
+    <a href="#">الرئيسية</a>
+    <a href="#menu">المنيو</a>
+    <a href="#about">عننا</a>
+    <a href="#footer">اتصل بنا</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <video autoplay muted loop playsinline>
+    <source src="pizza.mp4">
+  </video>
+
+  <div class="overlay">
+    <h1>Pizza Cheese</h1>
+    <p>أحلى بيتزا في القاهرة 🍕</p>
+    <button onclick="scrollToMenu()">شوف المنيو</button>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>من نحن</h2>
+  <p> Pizza Cheese ليست مجرد مطعم، بل تجربة متكاملة لعشاق البيتزا <br>
+        ، حيث ندمج بين الوصفات الإيطالية الأصلية واللمسة الشرقية المميزة، مع التزام كامل بأعلى معايير الجودة والطزاجة في كل قطعة نقدمها
+    <br>تجربتك مع بيتزا تشيز لن تجد مثلها في اي مكان اخر
+    </p>
+</section>
+
+<!-- FEATURE (IMAGE RIGHT + TEXT LEFT) -->
+<section class="feature">
+  
+  <div class="feature-text">
+    <h2>ليه تختارنا؟</h2>
+    <p> 1- نستخدم مكونات طازجة يتم اختيارها يوميًا لضمان أعلى جودة في كل وجبة نقدمها.</p>
+    <p> 2- نلتزم بوصفات أصلية تمزج بين المطبخ الإيطالي التقليدي واللمسة الشرقية المميزة.</p>
+    <p> 3- نحرص على سرعة التحضير والتوصيل مع الحفاظ على نفس مستوى الطعم والجودة.</p>
+    <p>4- نهدف لتقديم تجربة طعام متكاملة تجعل كل زيارة مختلفة ومميزة عن السابقة.</p>
+  </div>
+
+  <img src="zzz.avif">
+
+</section>
+
+<!-- MENU -->
+<section id="menu">
+  <h2>المنيو</h2>
+
+  <div class="menu">
+
+    <div class="card">
+      <img src="mar.avif">
+      <h3>Margherita Classic</h3>
+      <p>120 جنيه</p>
+      <button onclick="order('Margherita Classic')">اطلب</button>
+    </div>
+
+    <div class="card">
+      <img src="pip.avif">
+      <h3>Pepperoni Deluxe</h3>
+      <p>110 جنيه</p>
+      <button onclick="order('Pepperoni Deluxe')">اطلب</button>
+    </div>
+
+    <div class="card">
+      <img src="ch.avif">
+      <h3>Four Cheese Pizza</h3>
+      <p>250 جنيه</p>
+      <button onclick="order('Four Cheese Pizza')">اطلب</button>
+    </div>
+
+    <div class="card">
+      <img src="pp.avif">
+      <h3>Mushroom Parmesan</h3>
+      <p>300 جنيه</p>
+      <button onclick="order('Mushroom Parmesan')">اطلب</button>
+    </div>
+    <div class="card">
+      <img src="oo.avif">
+      <h3>Chicken Shawarma Pizza</h3>
+      <p>250 جنيه</p>
+      <button onclick="order('Chicken Shawarma Pizza')">اطلب</button>
+    </div>
+    <div class="card">
+      <img src="ii.avif">
+      <h3>Oriental Beef Pizza</h3>
+      <p>150 جنيه</p>
+      <button onclick="order('Oriental Beef Pizza')">اطلب</button>
+    </div>
+    <div class="card">
+      <img src="uu.avif">
+      <h3>Spicy Sausage Pizza</h3>
+      <p>140 جنيه</p>
+      <button onclick="order('Spicy Sausage Pizza')">اطلب</button>
+    </div>
+    <div class="card">
+      <img src="yy.avif">
+      <h3>Grilled Kebab Pizza</h3>
+      <p>170 جنيه</p>
+      <button onclick="order('Grilled Kebab Pizza')">اطلب</button>
+    </div>
+    <div class="card">
+      <img src="tt.avif">
+      <h3>BBQ Chicken Pizza</h3>
+      <p>300 جنيه</p>
+      <button onclick="order('BBQ Chicken Pizza')">اطلب</button>
+    </div>
+    <div class="card">
+      <img src="rr.avif">
+      <h3>Supreme Meat Pizza</h3>
+      <p>150 جنيه</p>
+      <button onclick="order('Supreme Meat Pizza')">اطلب</button>
+    </div>
+    <div class="card">
+      <img src="ee.avif">
+      <h3>Veggie Delight Pizza</h3>
+      <p>300 جنيه</p>
+      <button onclick="order('Veggie Delight Pizza')">اطلب</button>
+    </div>
+    <div class="card">
+      <img src="ww.avif">
+      <h3>Veggie Delight Pizza</h3>
+      <p>240 جنيه</p>
+      <button onclick="order('Veggie Delight Pizza')">اطلب</button>
+    </div>
+    <div class="card">
+      <img src="qq.avif">
+      <h3>Spicy Jalapeño Pizza</h3>
+      <p>160 جنيه</p>
+      <button onclick="order('Spicy Jalapeño Pizza')">اطلب</button>
+    </div>
+    <div class="card">
+      <img src="ll.avif">
+      <h3>Hawaiian Pizza</h3>
+      <p>150 جنيه</p>
+      <button onclick="order('Hawaiian Pizza')">اطلب</button>
+    </div>
+    <div class="card">
+      <img src="kk.avif">
+      <h3>Buffalo Chicken Pizza</h3>
+      <p>160 جنيه</p>
+      <button onclick="order('Buffalo Chicken Pizza')">اطلب</button>
+    </div>
+    <div class="card">
+      <img src="xx.avif">
+      <h3>Cheese Lovers Pizza</h3>
+      <p>300 جنيه</p>
+      <button onclick="order('Cheese Lovers Pizza')">اطلب</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer" class="footer">
+
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h3>Pizza Cheese</h3>
+      <p>أفضل بيتزا في القاهرة</p>
+    </div>
+
+    <div class="footer-box">
+      <h3>روابط</h3>
+      <p>الرئيسية</p>
+      <p>المنيو</p>
+      <p>العروض</p>
+    </div>
+
+    <div class="footer-box">
+      <h3>اتصل بنا</h3>
+      <p>01033281934</p>
+      <p>القاهرة</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="pizza.js"></script>
+</body>
+</html>
